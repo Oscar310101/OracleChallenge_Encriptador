@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador/Desencriptador de Textos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="Logo de la Aplicación">
+        <h1>Encriptador de Textos</h1>
+    </header>
+    <main>
+        <section class="instrucciones-section">
+            <h2>Instrucciones</h2>
+            <div class="instrucciones-container">
+                <img src="img/instrucciones.png" alt="Instrucciones" class="instrucciones-img">
+                <div class="instrucciones-texto">
+                    <ul>
+                        <li>No se permiten números ni caracteres especiales.</li>
+                        <li>Ingresa solamente minúsculas y sin caracteres especiales.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Encriptar Texto</h2>
+            <textarea id="texto-encriptar" class="texto-area" placeholder="Escribe el texto a encriptar"></textarea>
+            <button id="btn-encriptar">Encriptar</button>
+            <div class="result-container">
+                <p id="resultado-encriptar" class="resultado-texto">Resultado encriptado aparecerá aquí...</p>
+                <button id="btn-copiar">Copiar</button>
+            </div>
+        </section>
+        <section>
+            <h2>Desencriptar Texto</h2>
+            <textarea id="texto-desencriptar" class="texto-area" placeholder="Escribe el texto encriptado"></textarea>
+            <button id="btn-desencriptar">Desencriptar</button>
+            <p id="resultado-desencriptar" class="resultado-texto">Resultado desencriptado aparecerá aquí...</p>
+        </section>
+        <button id="btn-limpiar">Limpiar Todo</button>
+    </main>
+    <footer>
+        <p>Desarrollador: Oscar Martel</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+
